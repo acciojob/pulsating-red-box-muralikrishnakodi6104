@@ -6,7 +6,24 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
+	<style>
+		@keyframes pulse {
+			0% {
+			   transform: scale(1);
+			}
+			50% {
+				transform: scale(1.05);	
+			}
+			100% {
+				transform: scale(1);
+			}
+		}
+</style>
+
 <body>
+	<div style="width:100px; height: 100px; background-color:red; animation:pulse 1s ease-in-out infinite; ">
+		
+	</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
